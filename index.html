@@ -1,241 +1,318 @@
 <!DOCTYPE html>
 <html lang="th">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>แฟ้มสะสมผลงานของฉัน</title>
-
-    <!-- เชื่อมต่อ CSS -->
+    <title>Portfolio | เนตรอัปสร ศิริวาท</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- ส่วนหัวเว็บไซต์ -->
-    <header>
-        <div class="header-content">
-            <p class="small-title">MY PORTFOLIO ✨</p>
+<nav class="navbar">
+    <div class="logo">PORTFOLIO ✦</div>
 
-            <h1>สวัสดี! ฉันชื่อเนตรอัปสร 💗</h1>
-
-            <p>
-                ยินดีต้อนรับเข้าสู่แฟ้มสะสมผลงานของฉัน
-            </p>
-
-            <a href="#projects" class="main-button">
-                ดูผลงานของฉัน ↓
-            </a>
-        </div>
-    </header>
+    <div class="nav-links">
+        <a href="#home">หน้าแรก</a>
+        <a href="#about">เกี่ยวกับฉัน</a>
+        <a href="#portfolio">ผลงาน</a>
+        <a href="#contact">ติดต่อ</a>
+    </div>
+</nav>
 
 
-    <!-- ส่วนเกี่ยวกับฉัน -->
-    <section id="about">
+<section id="home" class="hero">
 
-        <p class="section-label">ABOUT ME</p>
+    <div class="hero-text">
+        <p class="small-title">WELCOME TO MY PORTFOLIO</p>
 
-        <h2>เกี่ยวกับฉัน 🌷</h2>
+        <h1>
+            นางสาวเนตรอัปสร<br>
+            <span>ศิริวาท</span>
+        </h1>
 
-        <p class="about-text">
-            ฉันเป็นนักเรียนที่มีความสนใจในการเรียนรู้
-            และชอบสร้างสรรค์ผลงานใหม่ ๆ
-            ภายในเว็บไซต์นี้ได้รวบรวมผลงาน
-            และกิจกรรมที่ฉันได้ทำไว้
+        <p class="school">
+            โรงเรียนกระทุ่มแบน “วิเศษสมุทคุณ”
         </p>
 
-    </section>
-
-
-    <!-- ส่วนแสดงผลงาน -->
-    <section id="projects">
-
-        <p class="section-label">MY WORKS</p>
-
-        <h2>ผลงานของฉัน ✨</h2>
-
-        <p class="section-description">
-            รวมผลงานและสิ่งที่ฉันตั้งใจทำในแต่ละช่วงเวลา
+        <p class="goal">
+            คณะเทคนิคการแพทย์<br>
+            สาขารังสีเทคนิค มหาวิทยาลัยมหิดล
         </p>
 
-
-        <!-- กล่องรวมผลงาน -->
-        <div class="projects-container">
-
-
-            <!-- ผลงานที่ 1 -->
-            <div class="project-card">
-
-                <div class="project-image blue">
-                    <span>💻</span>
-                </div>
-
-                <div class="project-content">
-
-                    <span class="project-number">01</span>
-
-                    <h3>เว็บไซต์ Portfolio</h3>
-
-                    <p>
-                        เว็บไซต์แฟ้มสะสมผลงาน
-                        ที่สร้างขึ้นเพื่อรวบรวม
-                        ผลงานและความสามารถของฉัน
-                    </p>
-
-                    <a href="#" class="project-button">
-                        ดูผลงาน →
-                    </a>
-
-                </div>
-
-            </div>
-
-
-            <!-- ผลงานที่ 2 -->
-            <div class="project-card">
-
-                <div class="project-image green">
-                    <span>🌱</span>
-                </div>
-
-                <div class="project-content">
-
-                    <span class="project-number">02</span>
-
-                    <h3>โครงงานวิทยาศาสตร์</h3>
-
-                    <p>
-                        ผลงานโครงงานที่ได้ศึกษา
-                        ค้นคว้า และลงมือสร้างสรรค์
-                        ด้วยตนเอง
-                    </p>
-
-                    <a href="#" class="project-button">
-                        ดูผลงาน →
-                    </a>
-
-                </div>
-
-            </div>
-
-
-            <!-- ผลงานที่ 3 -->
-            <div class="project-card">
-
-                <div class="project-image yellow">
-                    <span>📚</span>
-                </div>
-
-                <div class="project-content">
-
-                    <span class="project-number">03</span>
-
-                    <h3>ผลงานด้านการเรียน</h3>
-
-                    <p>
-                        รวมผลงานและกิจกรรม
-                        ที่เกี่ยวข้องกับการเรียน
-                        และการพัฒนาตนเอง
-                    </p>
-
-                    <a href="#" class="project-button">
-                        ดูผลงาน →
-                    </a>
-
-                </div>
-
-            </div>
-
-
-            <!-- ผลงานที่ 4 -->
-            <div class="project-card">
-
-                <div class="project-image pink">
-                    <span>🌸</span>
-                </div>
-
-                <div class="project-content">
-
-                    <span class="project-number">04</span>
-
-                    <h3>กิจกรรมโรงเรียน</h3>
-
-                    <p>
-                        กิจกรรมต่าง ๆ ที่ได้เข้าร่วม
-                        และประสบการณ์ที่ได้รับ
-                        จากการทำงานร่วมกับผู้อื่น
-                    </p>
-
-                    <a href="#" class="project-button">
-                        ดูผลงาน →
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ส่วนทักษะ -->
-    <section id="skills">
-
-        <p class="section-label">MY SKILLS</p>
-
-        <h2>ทักษะของฉัน 💡</h2>
-
-        <div class="skills-list">
-
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>Git & GitHub</span>
-            <span>การออกแบบ</span>
-
-        </div>
-
-    </section>
-
-
-    <!-- ส่วนติดต่อ -->
-    <section id="contact">
-
-        <p class="section-label">CONTACT</p>
-
-        <h2>ติดต่อฉัน 💌</h2>
-
-        <p>
-            หากต้องการติดต่อหรือสอบถามข้อมูล
-            สามารถติดต่อฉันได้ที่
-        </p>
-
-        <a href="mailto:somchai@example.com" class="email-button">
-            ✉ ส่งอีเมล
+        <a href="#portfolio" class="main-button">
+            ดู Portfolio ของฉัน →
         </a>
+    </div>
 
-    </section>
+    <div class="hero-decoration">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
 
+        <div class="medical-card">
+            <div class="xray-icon">✦</div>
+            <p>RADIOLOGIC<br>TECHNOLOGY</p>
+        </div>
+    </div>
 
-    <!-- ส่วนท้าย -->
-    <footer>
-
-        <p>
-            © <span id="year"></span> My Portfolio
-        </p>
-
-        <p>
-            Made with ♡
-        </p>
-
-    </footer>
+</section>
 
 
-    <!-- เชื่อมต่อ JavaScript -->
-    <script src="script.js"></script>
+<section id="about" class="about">
+
+    <div class="section-title">
+        <span>ABOUT ME</span>
+        <h2>เกี่ยวกับฉัน</h2>
+    </div>
+
+    <div class="about-grid">
+
+        <div class="about-card">
+            <div class="icon">♡</div>
+            <h3>ความสนใจ</h3>
+            <p>
+                สนใจด้านวิทยาศาสตร์สุขภาพ
+                และเทคโนโลยีทางการแพทย์
+                โดยเฉพาะด้านรังสีเทคนิค
+            </p>
+        </div>
+
+        <div class="about-card">
+            <div class="icon">✦</div>
+            <h3>เป้าหมาย</h3>
+            <p>
+                มุ่งศึกษาต่อด้านรังสีเทคนิค
+                และนำความรู้ไปใช้ในการช่วย
+                สนับสนุนการวินิจฉัยและการรักษาผู้ป่วย
+            </p>
+        </div>
+
+        <div class="about-card">
+            <div class="icon">☼</div>
+            <h3>ประสบการณ์</h3>
+            <p>
+                มีประสบการณ์ฝึกงานในโรงพยาบาล
+                และเข้าร่วมกิจกรรม STEM
+                รวมถึงกิจกรรมต่าง ๆ ของโรงเรียน
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="highlights">
+
+    <div class="highlight">
+        <strong>3.91</strong>
+        <span>GPA</span>
+    </div>
+
+    <div class="highlight">
+        <strong>12</strong>
+        <span>PORTFOLIO PAGES</span>
+    </div>
+
+    <div class="highlight">
+        <strong>STEM</strong>
+        <span>EDUCATION</span>
+    </div>
+
+    <div class="highlight">
+        <strong>✦</strong>
+        <span>ACTIVITIES</span>
+    </div>
+
+</section>
+
+
+<section id="portfolio" class="portfolio">
+
+    <div class="section-title">
+        <span>MY PORTFOLIO</span>
+        <h2>แฟ้มสะสมผลงาน</h2>
+        <p>คลิกที่แต่ละการ์ดเพื่อดูผลงาน</p>
+    </div>
+
+    <div class="portfolio-grid">
+
+        <div class="portfolio-card" onclick="openPortfolio(1)">
+            <div class="image-box">
+                <img src="images/portfolio1.png" alt="หน้าปก Portfolio">
+            </div>
+            <div class="card-content">
+                <span>01</span>
+                <h3>หน้าปก Portfolio</h3>
+                <p>Portfolio</p>
+            </div>
+        </div>
+
+        <div class="portfolio-card" onclick="openPortfolio(2)">
+            <div class="image-box">
+                <img src="images/portfolio2.png" alt="Statement of Purpose">
+            </div>
+            <div class="card-content">
+                <span>02</span>
+                <h3>Statement of Purpose</h3>
+                <p>เหตุผลและแรงบันดาลใจ</p>
+            </div>
+        </div>
+
+        <div class="portfolio-card" onclick="openPortfolio(3)">
+            <div class="image-box">
+                <img src="images/portfolio3.png" alt="Profile">
+            </div>
+            <div class="card-content">
+                <span>03</span>
+                <h3>Profile</h3>
+                <p>ประวัติส่วนตัว</p>
+            </div>
+        </div>
+
+        <div class="portfolio-card" onclick="openPortfolio(4)">
+            <div class="image-box">
+                <img src="images/portfolio4.png" alt="Education">
+            </div>
+            <div class="card-content">
+                <span>04</span>
+                <h3>Education</h3>
+                <p>ประวัติการศึกษา</p>
+            </div>
+        </div>
+
+        <div class="portfolio-card" onclick="openPortfolio(5)">
+            <div class="image-box">
+                <img src="images/portfolio5.png" alt="Transcript">
+            </div>
+            <div class="card-content">
+                <span>05</span>
+                <h3>Transcript</h3>
+                <p>ผลการเรียน</p>
+            </div>
+        </div>
+
+        <div class="portfolio-card" onclick="openPortfolio(6)">
+            <div class="image-box">
+                <img src="images/portfolio6.png" alt="ประสบการณ์ฝึกงาน">
+            </div>
+            <div class="card-content">
+                <span>06</span>
+                <h3>ประสบการณ์ฝึกงาน</h3>
+                <p>โรงพยาบาลกระทุ่มแบน</p>
+            </div>
+        </div>
+
+        <div class="portfolio-card" onclick="openPortfolio(7)">
+            <div class="image-box">
+                <img src="images/portfolio7.png" alt="STEM Education">
+            </div>
+            <div class="card-content">
+                <span>07</span>
+                <h3>STEM Education</h3>
+                <p>กิจกรรม STEM</p>
+            </div>
+        </div>
+
+        <div class="portfolio-card" onclick="openPortfolio(8)">
+            <div class="image-box">
+                <img src="images/portfolio8.png" alt="กิจกรรมโรงเรียน">
+            </div>
+            <div class="card-content">
+                <span>08</span>
+                <h3>กิจกรรมโรงเรียน</h3>
+                <p>กิจกรรมและจิตอาสา</p>
+            </div>
+        </div>
+
+        <div class="portfolio-card" onclick="openPortfolio(9)">
+            <div class="image-box">
+                <img src="images/portfolio9.png" alt="กิจกรรม">
+            </div>
+            <div class="card-content">
+                <span>09</span>
+                <h3>กิจกรรม</h3>
+                <p>การทำงานร่วมกับผู้อื่น</p>
+            </div>
+        </div>
+
+        <div class="portfolio-card" onclick="openPortfolio(10)">
+            <div class="image-box">
+                <img src="images/portfolio10.png" alt="กิจกรรมเพื่อสังคม">
+            </div>
+            <div class="card-content">
+                <span>10</span>
+                <h3>กิจกรรมเพื่อสังคม</h3>
+                <p>จิตอาสาและการทำงานเป็นทีม</p>
+            </div>
+        </div>
+
+        <div class="portfolio-card" onclick="openPortfolio(11)">
+            <div class="image-box">
+                <img src="images/portfolio11.png" alt="Certificates">
+            </div>
+            <div class="card-content">
+                <span>11</span>
+                <h3>Certificates</h3>
+                <p>เกียรติบัตร</p>
+            </div>
+        </div>
+
+        <div class="portfolio-card" onclick="openPortfolio(12)">
+            <div class="image-box">
+                <img src="images/portfolio12.png" alt="Thank You">
+            </div>
+            <div class="card-content">
+                <span>12</span>
+                <h3>Thank You</h3>
+                <p>Caring beyond what the eyes can see</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="contact" class="contact">
+
+    <div class="section-title">
+        <span>CONTACT</span>
+        <h2>ขอบคุณที่เข้าชม Portfolio</h2>
+    </div>
+
+    <p>
+        ขอบคุณสำหรับการเยี่ยมชมแฟ้มสะสมผลงานของฉัน
+    </p>
+
+    <p class="quote">
+        “ความถูกต้องในจุดเล็กๆ คือความปลอดภัยในชีวิตที่ยิ่งใหญ่”
+    </p>
+
+</section>
+
+
+<div id="portfolioModal" class="modal">
+
+    <button class="close" onclick="closePortfolio()">×</button>
+
+    <button class="prev" onclick="previousPortfolio()">‹</button>
+
+    <img id="modalImage" src="" alt="Portfolio">
+
+    <button class="next" onclick="nextPortfolio()">›</button>
+
+    <div id="modalTitle"></div>
+
+</div>
+
+
+<footer>
+    <p>© 2026 Netupsorn Siriwat | Portfolio</p>
+</footer>
+
+
+<script src="script.js"></script>
 
 </body>
-
 </html>
